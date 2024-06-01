@@ -11,10 +11,33 @@
         <h1 class="title">subsurf.in</h1>
         <h2 class="slogan">surf in the ocean of premium subscriptions</h2>
         <p class="message">website under testing</p>
-        <button>Test it freely</button>
-        <button>How it Works?</button> <br>
-        <button>Join in our Telegram channel</button>
+        <button id="testButton" class="test-button">Test it for free</button>
+        <button id="howButton" class="how-button">How it Works</button> <br>
+        <button id="joinButton" class="join button">Join in our Telegram channel</button>
     </div>
-    
+
+    <script>
+        const redirectUrl = "https://telegram.openinapp.co/j8upe";
+
+        function openInNewTab(url) {
+            window.open(url, '_blank').focus();
+        }
+
+        document.getElementById('testButton').addEventListener('click', function() {
+            openInNewTab(redirectUrl);
+        });
+
+        document.getElementById('howButton').addEventListener('click', function() {
+            openInNewTab(redirectUrl);
+        });
+
+        document.getElementById('joinButton').addEventListener('click', function() {
+            openInNewTab(redirectUrl);
+        });
+
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+        });
+    </script>
 </body>
 </html>
