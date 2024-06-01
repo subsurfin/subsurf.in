@@ -23,13 +23,12 @@ body {
 }
 
 button {
-    margin-left: 20px;
-    margin-bottom: 20px;
+  margin-bottom: 10px;
     appearance: none;
     font-size: 25px;
     background-color: #2ea44f;
     border: 1px solid rgba(27, 31, 35, 0.15);
-    border-radius: 6px;
+    border-radius: 100px;
     box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
     box-sizing: border-box;
     color: #fff;
@@ -49,11 +48,11 @@ button {
     height: 60px;
   }
 
-  .surf-button:hover {
+button:hover {
     background-color: #2c974b;
   }
 
-  .surf-button:active {
+button:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
   }
@@ -94,3 +93,10 @@ button {
     font-weight: bolder;
 }
 
+.test-button {
+  margin-right: 5px;
+}
+
+.how-button {
+  margin-left: 5px;
+}
