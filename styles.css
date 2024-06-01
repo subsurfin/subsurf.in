@@ -59,6 +59,7 @@ button:active {
 
 .title {
             margin: 0;
+            margin-top: 0px;
             font-size: 55px;
 			font-weight: 800;
 			line-height: 100px;
@@ -99,4 +100,8 @@ button:active {
 
 .how-button {
   margin-left: 5px;
+}
+
+.join-button{
+  margin-bottom: 300px;
 }
