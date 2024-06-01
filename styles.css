@@ -1,21 +1,18 @@
 /* styles.css */
 body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    padding: 20px;
     background-color: #1a1d25    ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container {
     text-align: center;
-    padding: 20px;
     background-color: #1a1d25    ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -57,7 +54,6 @@ button:active {
 
 .title {
             margin: 0;
-            margin-top: 0px;
             font-size: 55px;
 			font-weight: 800;
 			line-height: 100px;
@@ -72,13 +68,13 @@ button:active {
 }
 
 .slogan {
-    margin: 0;
-            font-size: 40px;
+      margin: 0;
+      font-size: 40px;
 			font-weight: 800;
 			line-height: 50px;
 			letter-spacing: -2px;
 			font-family: 'Montserrat', sans-serif;
-            background: linear-gradient(-40deg, #f9e0ad 0%, #f5fffc 100%);
+      background: linear-gradient(-40deg, #f9e0ad 0%, #f5fffc 100%);
 			background-clip: text;
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
@@ -87,9 +83,9 @@ button:active {
 }
 
 .message {
-    font-size: 40px;
-    color: white;
-    font-weight: bolder;
+      font-size: 40px;
+      color: white;
+      font-weight: bolder;
 }
 
 .test-button {
@@ -100,6 +96,3 @@ button:active {
   margin-left: 5px;
 }
 
-.join-button{
-  margin-bottom: 300px;
-}
