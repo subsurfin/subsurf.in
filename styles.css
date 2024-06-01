@@ -9,7 +9,6 @@ body {
     height: 100vh;
     text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
     background-color: #1a1d25    ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -17,7 +16,6 @@ body {
 .container {
     text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
     background-color: #1a1d25    ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
