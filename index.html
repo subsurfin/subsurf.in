@@ -3,59 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <link rel="icon" href="logo.png" type="image/png"> <!-- Favicon added -->
+    <title>Join Our Telegram Channel</title>
+    <link rel="icon" href="logo.png" type="image/png">
     <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-page styling */
         body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+            min-height: 100vh;
             font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
         }
+
         .container {
             text-align: center;
-            background-color: #fff;
-            padding: 40px;
+            padding: 20px;
+            background: #ffffff;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 400px;
         }
+
         .logo {
             width: 100px;
-            margin-bottom: 5px;
+            height: 100px;
+            margin-bottom: 20px;
         }
+
         h1 {
-            margin-top: 10px;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #333;
         }
-        .slogan {
-            font-size: 18px;
-            margin: 10px 0;
-            color: #555;
-        }
+
         .join-btn {
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #0088cc;
+            padding: 15px 30px;
+            font-size: 1rem;
             color: white;
-            text-decoration: none;
-            font-size: 16px;
+            background-color: #0088cc;
+            border: none;
             border-radius: 5px;
+            text-decoration: none;
             transition: background-color 0.3s ease;
         }
+
         .join-btn:hover {
-            background-color: #005f99;
+            background-color: #0077b5;
         }
     </style>
+    <script>
+        function getTelegramLink() {
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            const link = isMobile ? "https://telegram.openinapp.co/h8zoh" : "https://web.telegram.org/k/#@PremiumSubscriptionsHubs";
+            const joinLink = document.getElementById("join-link");
+            joinLink.setAttribute("href", link);
+            joinLink.setAttribute("target", "_blank");  // Opens the link in a new tab
+        }
+    </script>
 </head>
-<body>
+<body onload="getTelegramLink()">
     <div class="container">
-        <img src="logo.png" alt="Logo" class="logo">
-        <h1>Premium Subscriptions Hub</h1>
-        <h3>surf in the ocean of premium subscriptions</h3>
-        <p class="slogan">All Premium Subscriptions at one place</p>
-        <a href="https://telegram.openinapp.co/PremiumSubscriptionsHubs" target="_blank" class="join-btn">Join in Telegram Channel</a>
+        <img src="logo.png" alt="Telegram Logo" class="logo">
+        <h1>Join Our Telegram Channel</h1>
+        <a id="join-link" href="#" class="join-btn">Join Now</a>
     </div>
 </body>
 </html>
