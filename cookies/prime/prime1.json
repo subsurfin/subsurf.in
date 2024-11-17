@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "exportTimestamp": "2024-11-17T18:32:04.838Z",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "extensionVersion": "0.0",
+    "totalLocalStorageItems": 15,
+    "totalSessionStorageItems": 9,
+    "totalCookies": 13
+  },
+  "url": "https://www.primevideo.com/",
+  "localStorage": {
+    "csm-bf": "[\"0JM9THM4TR0W05FKR64V\",\"NA9RBS024GP74BJ3GB48\",\"8T3R57X2SGT98FY2ZCN1\",\"Q4PVCK8KH6Z2ZPADWJ4K\",\"9TBTGCJ7ST5DWDE4J4M0\",\"AN8X7D2XARK0R4EX2J8G\",\"WTTE88W04RQJXS7MVRXG\",\"WNBGT5F2YRCX70BEXFC6\",\"WCGYJSQ5AH81DP5MWHK7\",\"VJ3PGZEMJRJAENXFHKW7\",\"7YHNJC7X6X6FDTKERXP2\",\"9K6XR3V27NSDJZ2SZMRZ\",\"VBWYQRF41G50XCFCS2DV\",\"63Y95EGB2S5BAW3BTZ1Y\",\"6PS2G8MQZ07MHYDQV4K5\",\"QZRZT1AASADZ6JCB938H\",\"6RQSASPANE8VZQ87WDPC\",\"51PA1HB6ABB9CBMJD7DG\",\"MZ570M37WF90N80T7515\"]",
+    "a-font-class": "a-ember",
+    "default_audio_description": "false",
+    "csm:adb": "adblk_yes",
+    "dv-sw-cache-purge": "1731868317899",
+    "atvwebplayersdk_captions_scale": "1",
+    "atvwebplayersdk_atvwebplayer_deviceid": "a95b2476-a57d-4e90-80c4-e3e22f9f6baa",
+    "csa-ctoken-0JM9THM4TR0W05FKR64V": "1731871918746",
+    "csa-ctoken-9TBTGCJ7ST5DWDE4J4M0": "1731871588144",
+    "csa-tabbed-browsing": "{\"lastActive\":{\"visible\":true,\"pid\":\"gwtxzm-d6dcqv-4lyhhk-qtbha9\",\"tid\":\"jlqw8t-mfyx29-uft05j-9bv7bc\",\"ent\":{\"rid\":\"0JM9THM4TR0W05FKR64V\",\"ety\":\"ATVHome\",\"esty\":\"Home\"}},\"lastInteraction\":{\"id\":\"rhdtu0-at1486-gxs641-jmmddx\",\"used\":false},\"time\":1731868318746}",
+    "csa-ctoken-8T3R57X2SGT98FY2ZCN1": "1731871846907",
+    "csa-ctoken-Q4PVCK8KH6Z2ZPADWJ4K": "1731871835899",
+    "ee5cb8d2-a1a2-57e0-9572-02bffb860b38": "1731868318889",
+    "csm-hit": "adb:adblk_yes&t:1731868320966&tb:9TBTGCJ7ST5DWDE4J4M0+s-0JM9THM4TR0W05FKR64V|1731868320966",
+    "csa-ctoken-NA9RBS024GP74BJ3GB48": "1731871902526"
+  },
+  "sessionStorage": {
+    "8T3R57X2SGT98FY2ZCN1": "1",
+    "CSM_previousURL": "https://www.primevideo.com/",
+    "csa-tabbed-browsing": "{\"pid\":\"gwtxzm-d6dcqv-4lyhhk-qtbha9\",\"tid\":\"jlqw8t-mfyx29-uft05j-9bv7bc\",\"ent\":{\"rid\":\"0JM9THM4TR0W05FKR64V\",\"ety\":\"ATVHome\",\"esty\":\"Home\"},\"lastInteraction\":{\"id\":\"rhdtu0-at1486-gxs641-jmmddx\",\"used\":false},\"initialized\":true}",
+    "9TBTGCJ7ST5DWDE4J4M0": "1",
+    "0JM9THM4TR0W05FKR64V": "1",
+    "NA9RBS024GP74BJ3GB48": "1",
+    "eelsts": "scs",
+    "csmtid": "9TBTGCJ7ST5DWDE4J4M0",
+    "Q4PVCK8KH6Z2ZPADWJ4K": "1"
+  },
+  "cookies": [
+    {
+      "name": "i18n-prefs",
+      "value": "USD",
+      "domain": ".primevideo.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "lc-main-av",
+      "value": "en_US",
+      "domain": ".primevideo.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "ubid-main-av",
+      "value": "261-0069357-6428411",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": false
+    },
+    {
+      "name": "av-timezone",
+      "value": "Asia/Calcutta",
+      "domain": ".primevideo.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "session-id",
+      "value": "259-7916239-3788155",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": false
+    },
+    {
+      "name": "csm-hit",
+      "value": "adb:adblk_no&t:1731328298050&tb:s-9K6XR3V27NSDJZ2SZMRZ|1731328297052",
+      "domain": ".www.primevideo.com",
+      "secure": false,
+      "httpOnly": false
+    },
+    {
+      "name": "session-token",
+      "value": "JFOZNZd0XiTnnC24gkvsXok45QnNb9d4blDHEefZASZMUlTacdhEfd5oga3RMMT7ybuBJPwj7ULw0O7sN0t0NOjVTTa21SKRZvhQoYnAKyE7R+jxPz4zfumAgxvO8aR2BgXdB1vHyAy6IgANHHWkznpKvc0EGz5pgpLFUujZllLltWeftibH/9nGs6rZAPf/LmAv0LRpMe+b6g5ZgrYn+v9voX//Fs//65G1uo5HfntXcpaHWalk+fhcI6Hz3+iY01RoQU9jZz/Z18ZM4a+Tht/shseDr4JDte/NxRhCleQiLjCq+lTXRn2csGCpFRzo7mZIROT3Xk/3xbGDch3GydMzapCGdjIL9df26KdoVSSmcMTxmYFD4HXLNa5uIxqS",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": false
+    },
+    {
+      "name": "x-main-av",
+      "value": "\"?lfUf5BEQrdWTUByvhmzEf5FjJlPCVH826xckyJDrkPXrHzMSnSdKTsV7ZHav?rr\"",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": false
+    },
+    {
+      "name": "at-main-av",
+      "value": "Atza|IwEBIPPPidqwNg_qqofJjh4lzWN6EePH4nrcP690FW5mA1iDfNHwbdnQKErxRGAgsq7g6hEcOJSDWEFuSHM7RA4ZiwOwx12gc_5rzPACOiLuyBFIDiwS_gcgF9lapdBeAXP7rXRqggIHnDx13qDpnN9sU1WOTXN7BxiBBkn0mCRF530lgrmwb_9qIu88cIzTHhzpIEZUg1_YnO_77acXMjTw_syl_K6u0KQoD4-W7CVrLcgc8HkQ2huHdwguz62Qp-0_YaY",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "sess-at-main-av",
+      "value": "\"RVoqgLIU1Y+A4UBOIxAOK0XKwTkuTTEI5KkYet7Fjms=\"",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "session-id-time",
+      "value": "2082787201l",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": false
+    },
+    {
+      "name": "av-profile",
+      "value": "cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQUJTR05MVVEyTzlFTSZ0aW1lc3RhbXA9MTczMTg2ODMxNzc1MSZ2ZXJzaW9uPXYx.gxGLyFIW3Lc1I83jFcFm7-RAQvQILuoSq1nvwvTwp6xcAAAAAQAAAABnOjadcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ",
+      "domain": ".primevideo.com",
+      "secure": true,
+      "httpOnly": true
+    },
+    {
+      "name": "csm-hit",
+      "value": "adb:adblk_yes&t:1731868320966&tb:9TBTGCJ7ST5DWDE4J4M0+s-0JM9THM4TR0W05FKR64V|1731868320966",
+      "domain": "www.primevideo.com",
+      "secure": false,
+      "httpOnly": false
+    }
+  ]
+}
