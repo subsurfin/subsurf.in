@@ -1,0 +1,239 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Set background to black */
+    color: white; /* Set text color to white for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 60px; /* Padding for fixed header */
+}
+
+/* Header Styling */
+.header {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000; /* Ensure header stays on top */
+}
+
+.header-logo {
+    width: 40px; /* Adjust logo size */
+    height: 40px; /* Adjust logo size */
+    margin-right: 10px; /* Space between logo and website name */
+    cursor: pointer; /* Change cursor to pointer for logo */
+}
+
+.website-name {
+    font-size: 24px;
+    color: white; /* White text for website name */
+    font-weight: bold;
+    cursor: pointer; /* Change cursor to pointer for title */
+    text-decoration: none; /* Ensure no underline */
+}
+
+a.website-name-link,
+a.header-logo-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
+/* Notes Section */
+.notes {
+    margin-top: 120px; /* Space below the header */
+    text-align: center;
+    padding: 10px;
+}
+
+.note {
+    color: green; /* Red text for notes */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px; /* Space between the two notes */
+}
+
+/* Top Right Buttons */
+.top-buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px; /* Space between buttons */
+    z-index: 1000; /* Ensure buttons stay on top */
+}
+
+.top-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Removes underline for <a> elements */
+    display: inline-block; /* Ensure <a> looks like a button */
+}
+
+.top-button:hover {
+    background-color: #f0f0f0; /* Light grey hover effect */
+}
+
+/* Container to hold cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px; /* Adjusted for the notes section */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #b0b0b0; /* Set card background to grey ash */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set the same height for the logo */
+    object-fit: cover; /* Ensures the logo doesn't stretch */
+    margin-bottom: 10px; /* Space between logo and name */
+}
+
+.card-name {
+    font-size: 18px; /* Adjust font size */
+    color: #333; /* Dark grey text for the name */
+    margin-bottom: 20px; /* Space between name and button */
+}
+
+.card-button {
+    background-color: #000; /* Black button */
+    color: white; /* White text on button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #333; /* Dark grey hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px; /* Adjust padding for smaller screens */
+    }
+
+    /* Adjust header and buttons */
+    .header-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .website-name {
+        font-size: 20px;
+    }
+
+    .top-buttons {
+        top: 10px;
+        right: 10px;
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px;
+    }
+
+    .top-button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-button {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #111; /* Dark footer background */
+    color: white; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px; /* Space above the footer */
+    width: 100%; /* Full-width footer */
+    position: relative;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-link {
+    color: #f0f0f0; /* Light grey for links */
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #888; /* Slightly darker grey on hover */
+}
