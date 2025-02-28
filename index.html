@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Subscriptions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media (max-width: 768px) {
+            .mobile-move-up {
+                margin-top: -50px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex flex-col justify-center items-center text-center p-6 mobile-move-up">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Get Premium Subscriptions</h1>
+        <p class="text-lg text-gray-600 mb-6">We offer all types of premium subscriptions at the best prices.</p>
+        
+        <button id="join-telegram" class="mb-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:bg-blue-700 transition duration-300">Contact Us on Telegram</button>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 w-full max-w-5xl">
+            <div class="bg-white p-6 rounded-2xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-800">Streaming Services</h2>
+                <p class="text-gray-600 mt-2">Netflix, Disney+, Prime Video, YouTube & more.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-800">Music Platforms</h2>
+                <p class="text-gray-600 mt-2">Spotify, Apple Music, YouTube & more.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-800">Software & Tools</h2>
+                <p class="text-gray-600 mt-2">Adobe Creative Cloud, VPNs, Office 365 & more.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-800">Adult Content</h2>
+                <p class="text-gray-600 mt-2">Po*nhub, Brazze*rs, OnlyFans & more.</p>
+            </div>
+        </div>
+    </div>
 
+    <script>
+        document.getElementById("join-telegram").addEventListener("click", () => {
+            const isMobile = /Android|iPhone/i.test(navigator.userAgent);
+            const url = isMobile 
+                ? "https://telegram.openinapp.co/ay6mm" 
+                : "https://web.telegram.org/k/#@PremiumSubscriptionsHubs";
+            window.open(url, "_blank");
+        });
+    </script>
+</body>
+</html>
